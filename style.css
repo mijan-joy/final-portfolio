@@ -2,3 +2,103 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.top-banner{
+   background-image: url(images/blob-scene.png);
+   background-repeat: repeat;
+   padding: 20px;
+   height: 430px;
+}
+h1{
+    font-size: 40px;
+    color: antiquewhite;
+}
+#name{
+    margin-top: -40px;
+}
+h1 span{
+    color: orangered;
+}
+h3{
+    color: antiquewhite;
+}
+p{
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(45deg, navy, orangered);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.dream-area{
+    margin-top: 45px;
+    background-image: url(images/circle-scatter-haikei.png);
+    background-size: cover;
+   padding: 20px;
+   height: 400px;
+}
+.dream-area img{
+    margin-top: 30px;
+    width: 90%;
+   height: 90%;
+  
+}
+.experience{
+    margin-top: -35px;
+    background-image: url(images/stacked-waves-haikei.png);
+    background-size: cover;
+    background-position: left;
+    height: 450px;
+    padding-bottom: 50px;
+    
+}
+.experience h1{
+    padding-top: 35px;
+     padding-left: 5%;
+    color: orangered;
+    font-size: 40px;
+}
+.experience .half-width{
+    margin-top: -30px;
+}
+h3{
+    color: orangered;
+}
+h2{
+    font-size: 35px;
+}
+#full-stact-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px rgb(199, 51, 51);
+    border-radius: 10px;
+    height: 70%;
+}
+#full-stact-web h1{
+    font-size: 30px;
+}
+#baby-web h1{
+    font-size: 30px;
+    
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px rgb(199, 51, 51);
+    border-radius: 10px;
+    height: 70%;
+}
+footer{
+    text-align: center;
+}
